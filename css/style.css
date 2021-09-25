@@ -1,0 +1,218 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swapsubset=cyrillic-ext");
+@font-face {
+	font-family: "Cousine";
+	src: url("../fonts/Cousine.woff2") format("woff2"), url("../fonts/Cousine.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: "Balsamiq Sans";
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Cousine";
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 800;
+	color: #543964;
+	text-shadow: 2px 0px 1px #bd33a4;
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: 700;
+	color: #c04000;
+	margin: 0px 0px 5px 30px;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: 800;
+	color: #480607;
+	margin: 0px 0px 10px 40px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #32cd32;
+	margin: 0px 0px 0px 5px;
+}
+
+.navigation ol a {
+	margin: 0px 0px 0px 15px;
+	font-size: 18px;
+	color: #ff6800;
+}
+
+.sublist {
+	margin: 0px 0px 0px 15px;
+	font-size: 16px;
+}
+
+.bold {
+	font-weight: 700;
+	color: royalblue;
+	font-style: italic;
+}
+
+.clips h3 {
+	margin: 0px 0px 10px 0px;
+}
+.clips {
+	max-width: 600px;
+	max-height: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #cadaba;
+	text-align: center;
+	overflow: auto;
+}
+
+.childhood {
+	max-width: 1000px;
+	max-height: 500px;
+	overflow: hidden;
+	background-color: #657f4b;
+	text-align: right;
+	padding: 0px 20px 0px 0px;
+}
+
+.childhood p {
+	margin: 0px 0px 10px 0px;
+}
+
+.text {
+	display: inline;
+	text-decoration: line-through;
+	color: #543964;
+	letter-spacing: 10px;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+}
+
+.subtext {
+	color: #cc7fbd;
+	word-spacing: 10px;
+	text-align: justify;
+	font-weight: 700;
+	height: 200px;
+	overflow: scroll;
+}
+
+.buy > p {
+	color: blue;
+	line-height: 2;
+}
+
+.right {
+	max-width: 500px;
+	text-align: right;
+	margin: 0px 0px 0px 100px;
+}
+
+.bad {
+	text-transform: capitalize;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	color: crimson;
+	text-shadow: 3px -5px 1px cyan;
+}
+
+.bad p {
+	display: inline-block;
+	max-width: 330px;
+	text-align: justify;
+}
+
+.bad img {
+	display: none;
+}
+
+.additionally span {
+	display: block;
+}
+
+.second .text2 {
+	display: inline-block;
+	max-height: 200px;
+	max-width: 200px;
+	padding: 15px;
+}
+
+.third a {
+	display: block;
+	margin: 0px 0px 30px 0px;
+}
+
+.fourth p {
+	display: inline-block;
+	max-width: 100px;
+	margin: 0px 30px 0px 0px;
+	padding: 10px;
+}
+
+.lover {
+	margin: -10px 0px 0px 0px;
+}
+
+.scroll {
+	max-height: 200px;
+	overflow: scroll;
+}
